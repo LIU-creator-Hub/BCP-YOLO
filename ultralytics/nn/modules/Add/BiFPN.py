@@ -1,5 +1,5 @@
-import torch.nn as nn
 import torch
+from torch import nn
 
 
 class swish(nn.Module):
@@ -20,4 +20,3 @@ class Bi_FPN(nn.Module):
         stacked_feature_maps = torch.stack(weighted_feature_maps, dim=0)
         result = torch.sum(stacked_feature_maps, dim=0)
         return result
-
