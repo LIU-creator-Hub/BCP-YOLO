@@ -1,2 +1,2 @@
-from.CBAM import *
-from.BiFPN import *
+from .BiFPN import *
+from .CBAM import *
