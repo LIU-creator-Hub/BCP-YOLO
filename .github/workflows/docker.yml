@@ -9,10 +9,10 @@ permissions:
 
 on:
   push:
-    branches: [main]
-    paths-ignore:
-      - "docs/**"
-      - "mkdocs.yml"
+    # branches: [main]
+    # paths-ignore:
+    #   - "docs/**"
+    #   - "mkdocs.yml"
   workflow_dispatch:
     inputs:
       Dockerfile:
